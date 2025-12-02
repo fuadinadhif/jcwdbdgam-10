@@ -1,3 +1,0 @@
-# NADHIF
-
-Muhammad Nadhif Fuadi

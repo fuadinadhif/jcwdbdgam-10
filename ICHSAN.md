@@ -1,3 +1,0 @@
-# ICHSAN
-
-Muhammad Ichsanudin
