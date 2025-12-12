@@ -1,0 +1,194 @@
+<!-- HTML5 -->
+<!DOCTYPE html>
+
+<!-- Membungkus semua element/tag HTML lain -->
+<html>
+  <!-- Membungkus element meta -->
+  <head>
+    <!-- Memberikan title tab -->
+    <title>First</title>
+
+    <!-- Memberikan favicon -->
+    <link rel="shortcut icon" href="./medal-gold.svg" type="image/x-icon" />
+  </head>
+
+  <!-- Membungkus element body -->
+  <body>
+    <!-- <h></h> Membuat title -->
+    <h1>title</h1>
+    <h2>title</h2>
+    <h3>title</h3>
+    <h4>title</h4>
+    <h5>title</h5>
+    <h6>title</h6>
+
+    <hr />
+    <!-- Membuat paragraph -->
+    <p>Short paragraph</p>
+    <p>
+      <b>Lorem</b> ipsum dolor sit amet consectetur adipisicing elit.
+      <u>Cum vitae</u>
+      sunt assumenda asperiores at, modi veniam qui.
+      <u>
+        <i><b>Assumenda amet eveniet consequatur.</b></i>
+      </u>
+      <sup>Facere</sup> sed nemo earum maiores explicabo esse,
+      <i>est libero.</i>
+    </p>
+
+    <hr />
+    <!-- Membuat style text -->
+    <b>Hello</b>
+    <strong>Hello</strong>
+
+    <i>Bonjour</i>
+    <em>Bonjour</em>
+
+    <hr />
+    <!-- Membuat waktu -->
+    <time datetime="2025-01-01">
+      <sub>Hari Minggu,</sub> bulan Janurari, tahun ini
+    </time>
+
+    <hr />
+    <!-- Membuat list -->
+    <!-- 1. Ordered list -->
+    <ol>
+      <li>Bangun</li>
+      <li>Mandi</li>
+      <li>Berangkat ke kampus</li>
+    </ol>
+
+    <!-- 2. Unordered list -->
+    <ul>
+      <li>Telur</li>
+      <li>Singkong</li>
+      <li>Cabe</li>
+    </ul>
+
+    <hr />
+    <!-- Table -->
+    <table border="1">
+      <thead>
+        <tr>
+          <th colspan="3">Patients</th>
+        </tr>
+        <tr>
+          <th>Name</th>
+          <th>Gender</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Bill</td>
+          <td>Male</td>
+          <td>21</td>
+        </tr>
+        <tr>
+          <td>Miko</td>
+          <td>Female</td>
+          <td>Female15</td>
+        </tr>
+        <tr>
+          <td>Juan</td>
+          <td>Other</td>
+          <td>45</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr />
+    <!-- Link -->
+    <a href="https://google.com" target="_blank">Google</a>
+    <a href="https://instagram.com">Instagram</a>
+
+    <!-- Button -->
+    <button onclick="prompt('Enter something:')">Show prompt</button>
+
+    <hr />
+    <!-- Images -->
+    <img
+      src="https://cdn.pixabay.com/photo/2022/06/27/14/38/cat-7287671_640.jpg"
+      alt="Annoying cat"
+    />
+    <img src="./cat.png" alt="Grey cat" />
+    <figure>
+      <img
+        src="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,f_auto,q_auto:best,w_640/v1634025439/01kc83j5nge99tm6a21zqwv2n6.jpg"
+        alt=""
+      />
+      <caption>
+        Garis polisi terpasang di lokasi kejadian kericuhan yang terjadi di
+        kawasan Kalibata, Jakarta Selatan, Jumat (12/12/2025). Foto: Iqbal
+        Firdaus/kumparan
+      </caption>
+    </figure>
+
+    <hr />
+    <!-- Input -->
+    <input />
+    <input type="text" />
+    <input type="email" />
+    <input type="password" />
+    <input type="file" />
+    <input type="date" />
+    <input type="checkbox" />
+    <input type="checkbox" />
+    <input type="checkbox" />
+    <input type="radio" />
+    <input type="color" />
+    <input type="range" />
+    <input type="url" />
+
+    <hr />
+    <!-- Form -->
+    <form
+      onsubmit="alert(JSON.stringify({name:name.value, username: username.value, email: email.value, password: password.value}))"
+    >
+      <label for="name">Name</label>
+      <input id="name" type="text" />
+
+      <label for="username">Username</label>
+      <input id="username" type="text" />
+
+      <label for="email">Email</label>
+      <input id="email" type="email" placeholder="email@example.com" />
+
+      <label for="password">Password</label>
+      <input id="password" type="password" />
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <hr />
+    <!-- Select -->
+    <select name="city">
+      <option selected disabled>Select city</option>
+      <option value="1">Jakarta</option>
+      <option value="2">Yogyakarta</option>
+      <option value="3">Bandung</option>
+      <option value="4">Cilegon</option>
+    </select>
+
+    <hr />
+    <!-- Wrapper element -->
+    <!-- <html></html> -->
+    <!-- <head></head> -->
+    <!-- <body></body> -->
+
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <!-- Hero section -->
+      <section></section>
+
+      <!-- Why Purwadhika section -->
+      <section></section>
+    </main>
+    <footer></footer>
+
+    <div></div>
+  </body>
+</html>
