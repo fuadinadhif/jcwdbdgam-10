@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fixed Position</title>
+    <style>
+      body {
+        height: 500vh;
+      }
+
+      div {
+        width: 50px;
+        height: 50px;
+      }
+
+      #first-parent {
+        background-color: black;
+        height: 300px;
+        width: 100%;
+        position: relative;
+      }
+
+      #first {
+        background-color: red;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+
+      #second {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="first-parent">
+      <div id="first"></div>
+    </div>
+    <div id="second"></div>
+  </body>
+</html>
