@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import "tailwindcss";
+
+/*
+.text-green-50: {}
+.text-green-100: {}
+.text-green-200: {}
+*/
+
+.text-merah {
+  color: red;
+}
+
+.text-besar {
+  font-size: 42px;
+}
+
+@theme {
+  --font-space-grotesk: "Space Grotesk", sans-serif;
+}
+
+@layer utilities {
+  .large-container {
+    /* max-width: 1240px;
+    margin: auto; */
+    @apply max-w-310 mx-auto px-4;
+  }
+}
