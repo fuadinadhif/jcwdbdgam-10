@@ -1,14 +1,5 @@
-import "dotenv/config";
-import { PrismaPg } from "@prisma/adapter-pg";
-import { PrismaClient } from "../generated/prisma/client.js";
 import { Role } from "../generated/prisma/enums.js";
-
-const connectionString = `${process.env.DATABASE_URL}`;
-
-const adapter = new PrismaPg({ connectionString });
-const prisma = new PrismaClient({ adapter });
-
-export { prisma };
+import { prisma } from "../lib/prisma.lib.js";
 
 interface IUserData {
   name: string;
@@ -27,9 +18,3 @@ export async function create(userData: IUserData) {
     },
   });
 }
-
-export async function get() {}
-
-export async function update() {}
-
-export async function remove() {}
