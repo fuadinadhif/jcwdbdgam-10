@@ -50,11 +50,12 @@ model Property {
 }
 
 model Order {
-  id         Int     @id @default(autoincrement())
+  id         Int           @id @default(autoincrement())
   customerId Int
   propertyId Int
   quantity   Int
-  amount     Decimal @db.Decimal(10, 2)
+  amount     Decimal       @db.Decimal(10, 2)
+  status     PaymentStatus @default(PENDING)
 
   createdAt DateTime  @default(now())
   deletedAt DateTime?
